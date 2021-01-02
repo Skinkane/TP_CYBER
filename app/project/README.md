@@ -1,7 +1,21 @@
-# Lancer le projet 
+# PROJECT CYBERSECURITE
 
-Dans le dossier `projet_tele` lancez la commande `docker-compose up`
+## DESCRIPTION
+```
+Ce projet ne fait rien
+```
 
-# Getting Started with Create React App
+## SETUP
+```
+1 - Clonner le repo
+2 - De placer dans le dossier app/project du Projet
+3 - Faire les commandes suivante :
+        . docker-compose build
+        . docker-compose up
+4 - Se rendre sur l'adresse indiquée
+```
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## CIDT
+```
+
+```

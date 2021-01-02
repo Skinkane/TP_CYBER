@@ -7,12 +7,10 @@ function App() {
     <div className="App">
       
       <header className="App-header">
-      <Info/>
-
-
+        <Info/>
       </header>
       <footer>
-      <MyClock/>
+        <MyClock/>
       </footer>
     </div>
   );
