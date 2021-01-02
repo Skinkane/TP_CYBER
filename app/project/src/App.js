@@ -5,7 +5,6 @@ import MyClock from './Clock.js';
 function App() {
   return (
     <div className="App">
-      
       <header className="App-header">
         <Info/>
       </header>
