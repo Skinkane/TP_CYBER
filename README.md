@@ -1,24 +1,18 @@
-# projet_secu
+# TP_CYBER
 
-## Project setup
-```
-npm install
-```
+## DESCRIPTION
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Cette application ne fait rien
 
-### Compiles and minifies for production
+## SETUP
 ```
-npm run build
-```
+1 - npm install
 
-### Lints and fixes files
-```
-npm run lint
-```
+2 - npm run serve
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+3 - docker-compose build
+
+4 - docker-compose up
+
+```
+## OBJECTIFS DCIT
