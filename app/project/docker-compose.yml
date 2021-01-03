@@ -2,6 +2,19 @@ version: '3.7'
 
 services:
 
+  services:
+    database:
+        image: 'mysql:latest'
+        environment:
+            MYSQL_ROOT_PASSWORD: password
+            MYSQL_DATABASE: main
+            MYSQL_USER: user
+            MYSQL_PASSWORD: user
+        ports:
+            - '3306'
+        volumes:
+            - ./database:/docker-entrypoint-initdb.d
+
   sample:
     container_name: cyberproject2077
     build:
