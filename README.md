@@ -12,7 +12,7 @@
 
         . docker run -d -p 8080:8080 projet_secu
 
-4 - Se rendre sur l'adresse indiquée dans la console
+4 - Se rendre sur l'adresse : http://localhost:8080/
 
 ```
 
@@ -20,7 +20,7 @@
 ```
 
 Ce projet est développé en SPRING et contient une base de données avec une API. On peut envoyer des 
-informations et les lires via POSTMAN
+informations et les lire via POSTMAN.
 
 ```
 
@@ -31,13 +31,16 @@ Disponibilité : 3/5 : La disponibilité de cette application est relative, dans
                       dispoible qu'en local, d'où la note moyenne.
 ```
 ```
-Intégrité : /5 : 
+Intégrité : 1/5 : La modification n'as pas de restriction si ce n'est ce que peut supporter le container 
+                  Docker, l'application mérite donc selon moi une mauvaise note à ce niveau.
 ```
 ```
-Confidentitalité : /5 : 
+Confidentitalité : 1/5 : Les données sont en libre lecture sur l'application à ce stade, la confidentialité 
+			 est donc minimale, ce qui justifie selon moi une mauvaise note également.
 ```
 ```
-Tracabilité : 3/5 : L'application 
+Tracabilité : 4/5 : L'application ne retiens aucune information personelle et aucun journaux, il n'y à 
+                    pas de tracabilité réélle, elle est donc selon moi très bonne sur ce point.
 ```
 
 ### AUTEUR
