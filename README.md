@@ -25,11 +25,8 @@ informations et les lire via POSTMAN.
 ```
 
 ## MERMAIDJS
-```
 
-![alt text](https://i.ibb.co/rvHfZJc/mermaid-diagram-20210208160532.png)
-
-```
+[![](https://mermaid.ink/img/eyJjb2RlIjoiZ3JhcGggVERcbiAgT1NbT1NdIC0tPiBEb2NrZXJ7RG9ja2VyfVxuICBMQU5bTEFOIGV0IHBvcnRzIG91dmVydHNdIC0tPiBEb2NrZXJcbiAgRG9ja2VyIC0tPiBBcGlbQVBJXVxuICBBcGkgLS0-IFNRTFtSZXF1w6p0ZXMgU1FMXVxuICBTUUwgLS0-IEluamVjW0luamVjdGlvbiBTUUxdXG4gIERvY2tlciAtLT4gQkREW0gyXVxuICBCREQgLS0-IE1EUFtNb3QgZGUgcGFzc2VdIiwibWVybWFpZCI6e30sInVwZGF0ZUVkaXRvciI6ZmFsc2V9)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ3JhcGggVERcbiAgT1NbT1NdIC0tPiBEb2NrZXJ7RG9ja2VyfVxuICBMQU5bTEFOIGV0IHBvcnRzIG91dmVydHNdIC0tPiBEb2NrZXJcbiAgRG9ja2VyIC0tPiBBcGlbQVBJXVxuICBBcGkgLS0-IFNRTFtSZXF1w6p0ZXMgU1FMXVxuICBTUUwgLS0-IEluamVjW0luamVjdGlvbiBTUUxdXG4gIERvY2tlciAtLT4gQkREW0gyXVxuICBCREQgLS0-IE1EUFtNb3QgZGUgcGFzc2VdIiwibWVybWFpZCI6e30sInVwZGF0ZUVkaXRvciI6ZmFsc2V9)
 
 ## DICT
 ```
