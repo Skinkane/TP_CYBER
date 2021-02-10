@@ -39,10 +39,7 @@ Pour rechercher des informations dans la base de données, les 3 routes qui vous
 . http://localhost:8080/friends
 ```
 
-## FAILLES
-```
-La liste des failles repérées
-```
+# FAILLES
 
 ## INJECTION SQL
 
