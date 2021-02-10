@@ -31,8 +31,11 @@ Injection SQL :
 
  --> Faire des appels API via POSTMAN (Collection d'appels disponible).
 
-La base de données contient des données sensibles sur les utilisateurs, ce point d'accés crée donc des problèmes de confidentitalité. Il est possible de lire ces informations sensibles via les appels API, il y a donc une rupture totale de
-l'intégrité de l'application.Des informations de connexions peuvent être récupérer durant l'opération. Celles-ci pourraient permettre à ceux qui se sont introduit de s'introduire sur d'autres plateformes. Le manque de système d'administration permet aux personnes qui s'introduise de modifier des informations précieuses.
+La base de données contient des données sensibles sur les utilisateurs, ce point d'accés crée donc des problèmes de
+confidentitalité. Il est possible de lire ces informations sensibles via les appels API, il y a donc une rupture totale de
+l'intégrité de l'application.Des informations de connexions peuvent être récupérer durant l'opération. Celles-ci
+pourraient permettre à ceux qui se sont introduit de s'introduire sur d'autres plateformes. Le manque de
+système d'administration permet aux personnes qui s'introduise de modifier des informations précieuses.
 
 Pour combler cette faille il faudrait penser à developper le système d'administration et donc de restreindre les différents
 appels API libres aux seuls adinistrateur de l'application.
@@ -41,7 +44,10 @@ Faille HTTP (Certificat SSL manquant):
 
  --> L'application est accessible uniquement en HTTP.
 
-Le manque de certificat SSL sur l'applicaion fait que cette dernière n'est pas en HTTPS et cela induit que les requêtes ne sont pas criptés, celles-ci sont en clair et donc cela crée une fois de plus une rupture de l'intégrité de l'application. Le manque d'intégrité de l'application induit égalementun manque de confidentialité et de sécurité notamment sur les réseaux publics.
+Le manque de certificat SSL sur l'applicaion fait que cette dernière n'est pas en HTTPS et cela induit que les requêtes ne
+sont pas criptés, celles-ci sont en clair et donc cela crée une fois de plus une rupture de l'intégrité de l'application.
+Le manque d'intégrité de l'application induit égalementun manque de confidentialité et de sécurité notamment sur les 
+réseaux publics.
 
 Pour combler cette faille il faudrait acquérir un certificat SSL et donc passer en HTTPS.
 
