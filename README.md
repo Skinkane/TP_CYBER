@@ -27,7 +27,12 @@ des amis.
 
 ## FAILLES
 ```
-Injection SQL :
+La liste des failles repérées
+```
+
+## INJECTION SQL
+
+```
 
  --> Faire des appels API via POSTMAN (Collection d'appels disponible).
 
@@ -38,10 +43,14 @@ il y a donc une rupture totale de l'intégrité de l'application.Des information
 s'introduire sur d'autres plateformes. Le manque de système d'administration permet aux personnes qui
 s'introduise de modifier des informations précieuses.
 
-Pour combler cette faille il faudrait penser à developper le système d'administration et donc de restreindre les différents
-appels API libres aux seuls adinistrateur de l'application.
+Pour combler cette faille il faudrait penser à developper le système d'administration et donc de restreindre
+les différents appels API libres aux seuls adinistrateur de l'application.
+```
 
-Faille HTTP (Certificat SSL manquant):
+##FAILLE HTTP
+
+```
+(Certificat SSL manquant)
 
  --> L'application est accessible uniquement en HTTP.
 
