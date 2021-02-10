@@ -17,12 +17,26 @@
 ```
 
 ## DESCRIPTION
-```
 
 Ce projet est développé en SPRING et contient une base de données avec une API. On peut envoyer des
 informations et les lire via POSTMAN. Cette a pour but de gérer des profiles de réseaux sociaux gestion
 des amis.
 
+
+## FONCTIONNALITES
+Sur cette application, vous avez accés à un ensemble de requête sur les différents objets
+qui composent la bdd. Vous disposez de ces requêtes dans une collection POSTMAN qui est à 
+votre disposition dans le projet.
+
+Pour rechercher des informations dans la base de données, les 3 routes qui vous seront utiles sont :
+```
+. http://localhost:8080/users
+```
+```
+. http://localhost:8080/posts  
+```
+```
+. http://localhost:8080/friends
 ```
 
 ## FAILLES
@@ -31,8 +45,6 @@ La liste des failles repérées
 ```
 
 ## INJECTION SQL
-
-```
 
  --> Faire des appels API via POSTMAN (Collection d'appels disponible).
 
@@ -45,11 +57,10 @@ s'introduise de modifier des informations précieuses.
 
 Pour combler cette faille il faudrait penser à developper le système d'administration et donc de restreindre
 les différents appels API libres aux seuls adinistrateur de l'application.
-```
+
 
 ## FAILLE HTTP
 
-```
 (Certificat SSL manquant)
 
  --> L'application est accessible uniquement en HTTP.
@@ -62,7 +73,6 @@ de confidentialité et de sécurité notamment sur les réseaux publics.
 Pour combler cette faille il faudrait acquérir un certificat SSL et donc passer en HTTPS.
 
 
-```
 
 ## MERMAIDJS
 
